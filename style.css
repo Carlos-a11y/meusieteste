@@ -11,26 +11,29 @@ body {
 }
 
 nav a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
-    color: white;
+    color: rgb(0, 85, 182);
     margin: 20px;
     text-decoration: none;
 }
 
 nav a i {
-    margin-right: 8px;
+    margin-right: 5px;
     color: #04478f;
 }
 
 nav a:hover {
     text-decoration: underline;
-    color: green;
+    color: rgb(66, 66, 66);
 }
+
 
 header {
     background-color: #003a77;
     color: rgb(255, 255, 255);
-    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
     text-align: center;
 }
 
@@ -40,14 +43,16 @@ nav {
 }
 
 main {
+    font-family: Arial, Helvetica, sans-serif;
     padding: 100px;
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 }
 
 footer {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #222;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 2px;
     position: fixed;
@@ -62,5 +67,6 @@ footer {
 }
 
 .logo img {
+    border-radius: 50px;
     height: 100px 
 }

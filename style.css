@@ -114,12 +114,13 @@ footer {
     }
 
     .morcego {
-        position: static;
-        transform: none;
-        width: 80px;
-        margin-top: 20px;
-    }
-
+    position: absolute;
+    top: 35%;
+    right: 23%;
+    width: 80px;
+    transform: translate(50%, -50%);
+  }
+  
     main {
         padding: 15px;
     }

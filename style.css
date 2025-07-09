@@ -30,11 +30,13 @@ nav a:hover {
 
 
 header {
-    background-color: #003a77;
-    color: rgb(255, 255, 255);
+    background-image: url('coringa.gif');
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.904);
+    color: rgb(177, 177, 177);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 5px;
-    text-align: center;
+    padding: 8px;
+    text-align: center; 
+    text-shadow: 4px 4px 5px rgb(55, 0, 255);
 }
 
 nav {
@@ -47,6 +49,7 @@ main {
     padding: 100px;
     text-align: center;
     padding-bottom: 50px;
+    text-shadow: 1px 4px 4px black;
 }
 
 footer {
@@ -61,12 +64,26 @@ footer {
 }
 
 .logo {
+
+    position: absolute;
+    top: 0%;
+    left: 2%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    
 }
 
 .logo img {
     border-radius: 50px;
-    height: 100px 
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.904);
+    height: 80px 
+}
+
+.morcego {
+  position: absolute;
+  top: 35%;
+  right: 33%;
+  transform: translate(-50%, -50%);
+  width: 100px;
 }

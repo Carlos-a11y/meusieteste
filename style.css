@@ -114,9 +114,9 @@ footer {
     }
 
     .morcego {
-    position: absolute;
+    position: block;
     top: 35%;
-    right: 23%;
+    right: 10%;
     width: 80px;
     transform: translate(50%, -50%);
   }

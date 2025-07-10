@@ -89,7 +89,7 @@ footer {
 }
 
 /* RESPONSIVIDADE PARA CELULAR */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     header {
         font-size: 14px;
     }

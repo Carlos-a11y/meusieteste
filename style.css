@@ -100,8 +100,6 @@ footer {
   flex-direction: column;
 }
 
-
-
 .morcego {
   width: 60px;
   height: auto;
@@ -127,7 +125,9 @@ footer {
   .logo {
     position: static;
     margin: 10px auto;
+    display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .logo img {

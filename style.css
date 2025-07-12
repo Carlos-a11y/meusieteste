@@ -67,6 +67,30 @@ footer {
     bottom: 0;
 }
 
+.rodape {
+  background: #222;
+  overflow: hidden;
+  color: white;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.text-animado {
+  white-space: nowrap;
+  animation: deslizar 7s linear infinite;
+}
+
+@keyframes deslizar {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 .logo {
 
     position: absolute;
@@ -165,4 +189,5 @@ footer {
     font-size: 14px;
     padding: 5px;
   }
+  
 }

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Press+Start+2P&family=Rubik+Wet+Paint&display=swap');
 
 * {
     margin: 0;
@@ -13,7 +15,7 @@ body {
 }
 
 nav a {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Rubik Wet Paint", system-ui;
     font-size: 20px;
     color: rgb(0, 85, 182);
     margin: 20px;
@@ -95,7 +97,7 @@ footer {
 
 .texto {
     font-size: large;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Eater", serif;
   text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.904) ;
   text-align: center;
   display: flex;
@@ -145,7 +147,6 @@ footer {
 
   .texto {
     font-size: 18px;
-    text-shadow: none;
     width: 100%;
     align-items: center;
   }
